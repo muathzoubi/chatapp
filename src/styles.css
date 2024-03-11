@@ -207,7 +207,6 @@ h2 {
   animation: rotation 7s linear infinite;
 }
 .arrow {
-  z-index: 1000;
   opacity: 0.5;
   position: absolute;
 }

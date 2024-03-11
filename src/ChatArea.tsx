@@ -8,7 +8,7 @@ const ChatButton = (props: {
     <button
       onClick={props.onClick}
       className="chat-button"
-      style={{ opacity: props.showChat ? 0.5 : 1 }}
+      style={{ opacity: props.showChat ? 0.5 : 1 ,zIndex:9999}}
     >
       👋🏻
     </button>
